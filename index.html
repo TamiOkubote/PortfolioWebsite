@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About us: Chosen</title>
+    <style>
+        body {
+            background-image: url("https://static.wixstatic.com/media/95c3bd_7040a3118cc646f1a88d2b7e0a46d202~mv2.jpg/v1/fill/w_2048,h_1416,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/95c3bd_7040a3118cc646f1a88d2b7e0a46d202~mv2.jpg");
+            background-size: 150%;
+            background-repeat: no-repeat;
+            background-position: center;
+            opacity: 1;
+        }
+        /* Other styles remain unchanged */
+    </style>
+</head>
+<body>
+    <div style="display: flex; justify-content: center; gap: 1rem; margin-top: 1rem;">
+        <button id="work-experience-btn" onclick="displayWorkExperience()" style="padding: 0.5rem 1rem; font-size: 1rem;">Work Experience</button>
+        <button id="technical-skills-btn" onclick="displayTechnicalSkills()" style="padding: 0.5rem 1rem; font-size: 1rem;">Technical Skills</button>
+        <button id="cv-btn" onclick="displayCV()" style="padding: 0.5rem 1rem; font-size: 1rem;">Education</button>
+        <button id="comments-btn" onclick="displayComments()" style="padding: 0.5rem 1rem; font-size: 1rem;">CV</button>
+        <button id="comments-btn" onclick="displayComments()" style="padding: 0.5rem 1rem; font-size: 1rem;">Comments</button>
+    </div>
+<!-- Removed duplicate body style -->
+<style>
+h1 {
+    color: red;
+    text-align: center;
+    border-bottom: 6px dotted white;
+    font-family: 'Sofia', sans-serif;
+}
+
+p {
+    font-family: 'Sofia', sans-serif;
+    color: red;
+    font-size: 20px;
+}
+
+label {
+    color: red;
+    font-size: 15px;
+}
+
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {background-color: #f2f2f2;}
+#customers tr:nth-child(odd) {background-color: #f2f2f2;}
+#customers tr:hover {background-color: #ddd;}
+
+#customers tr:nth-child(2) {
+        background-color: #F25022; /* Red from Microsoft's logo */
+}
+#customers tr:nth-child(3) {
+        background-color: #7FBA00; /* Green from Microsoft's logo */
+}
+#customers tr:nth-child(4) {
+        background-color: #00A4EF; /* Blue from Microsoft's logo */
+}
+#customers tr:nth-child(5) {
+        background-color: #FFB900; /* Yellow from Microsoft's logo */
+}
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+body, h1, p, label, textarea, a, th, td {
+    color: darkyellow;
+}
+footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1rem 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Tami Okubote</h1>
+<p>Email: Tspeedstar@icloud.com, Telephone No: 07368520620</p>
+<a href="https://www.linkedin.com/in/tami-okubote-8b3087281?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BB%2FiClnbzReeRyCLHW1qcYA%3D%3D">LinkedIn Profile</a>
+
+<form>
+        Description: <br>
+        <textarea rows="10" cols="40" name="Description" spellcheck="False">
+   About Tami: 
+   Tami Okubote is a 17 year old student at The Sixth Form Farnborough College, studying Computer Science, Maths and Physics.
+
+
+   He is a quick learner and has a natural aptitude for problem-solving, which makes him well-suited for a career in technology. Tami is also a team player who enjoys collaborating with others and sharing ideas. He is committed to using his skills and knowledge to create innovative solutions that can help improve people's lives.
+
+   Tami is a strong advocate for diversity and inclusion in the tech industry, and he believes that everyone should have the opportunity to pursue their passions and achieve their goals. He is passionate about using technology to create positive change in the world, and he is excited about the possibilities that lie ahead.
+        </textarea>
+</form>
+<style>
+    a[href*="linkedin"] {
+        color: darkyellow;
+        font-weight: bold;
+    }
+</style>
+<div class="Sign-up-for-chosen">
+<div class="Sign-up-for-chosen">
+    </div>
+    <div class="buy-ticket-form">
+        <p> Please fill in this form, if you wish to connect, giving your name, your email address, and profession. Thank you</p>
+        <form>
+            <div>
+<div class="Sign-up-for-chosen">
+</div>
+            <label for="Email">Email</label>
+            <input type="email" id="email" name="Email" placeholder="example@something.com">
+            <div>
+                <label for="cars">Choose industry:</label>
+                <select>
+                    <option class="option">Finance</option>
+                    <option class="option">Tecnhonology</option>
+                    <option class="option">Engineering</option>
+                    <option class="option">Law</option>
+                </select>
+            </div>
+            <button class="w3-btn w3-red w3-round" style="width: 50%; margin-top: 30px; margin-bottom: 30px;">Submit</button>
+        </form> 
+</div>
+<table id="customers">
+        <tr>
+            <th>Work experience</th>
+            <th>Technical skills</th>
+            <th>Projects</th>
+        </tr>
+        <tr>
+            <td>University of Bristol</td>
+            <td>MOS Certificate in MS Word, MS PowerPoint</td>
+            <td>Webpage to sign up children at local Church's youth classes</td>
+        </tr>
+        <tr>
+            <td>Kainos</td>
+            <td>Programmed in 5 languages: HTML, CSS, JavaScript, Python, Java </td>
+            <td>Made an animation based on UK Weather using JavaScript</td>
+        </tr>
+        <tr>
+            <td>Microsoft</td>
+            <td>Public speaking: spoken in Christmas Carol services and speeches in front of 400 people</td>
+            <td>Made a simulation based of reaction-practice in Formula 1</td>
+        </tr>
+        <tr>
+            <td>World Wide Technology</td>
+            <td>Developed and pitched a business idea in the form of an app, by implementing the Microsoft power platform: Power BI, Copilot Studio, Power Automate</td>
+            <td>Collaborated with partner to create a catch-game project using JavaScript</td>
+        </td>
+        </tr>
+        <tr>
+            <td>13-19</td>
+            <td>2</td>
+        </tr>
+</table>
+
+<footer>
+        <p>&copy; 2025 Tami Corporations</p>
+        <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                        const footer = document.querySelector("footer");
+                        footer.style.position = "relative";
+                        footer.style.bottom = "0";
+                });
+        </script>
+</footer>
+<script src="newIndex.js"></script>
+
+</body>
+<style>
+    p, form, textarea {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+
+    textarea {
+        width: 90%; /* Expand the width of the textbox */
+        text-align: center; /* Center align the text inside */
+        margin: 0 auto; /* Center the textbox itself */
+        display: block;
+    }
+
+    form {
+        text-align: center;
+    }
+
+    textarea {
+        display: inline-block;
+        text-align: left;
+        vertical-align: top;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    a {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .example-of-Chosen {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+        .buy-ticket-form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .buy-ticket-form input,
+        .buy-ticket-form select {
+            margin-top: 5px;
+        }
+    </style>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const table = document.getElementById("customers");
+            const rows = table.getElementsByTagName("tr");
+            if (rows.length > 5) {
+                table.deleteRow(5); // Remove the sixth row (index 5)
+            }
+        });
+    </script>
+</html>
+<style>
+    textarea {
+        text-align: center; /* Center align the text inside the textbox */
+    }
+</style>
